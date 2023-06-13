@@ -5,3 +5,12 @@ This repository will contain all of MERN projects(basic to advanced) which I cre
 ## Class 06 Assignment:
 
 class six contains assignment about to make a blood donors club member data and the data will show blood donor details and donation history based functionality that, is they available or not available.
+
+## Created by
+
+deveripon
+![devripon](![Alt text](https://lh3.googleusercontent.com/fcNdCYSiuvxMvCpKi0KUW5n53y5MvKf-8Fxh-OKyYuvkr1eX_mUyg9ZeiFFSZyGo6e1teCDsZyuCB7jBJvhon3w5GngTCXlxn738pSxnErBy7DcbirTFCobHR9wrMmNm3foeHlaauXrxLGIL1F4FQVS6KmdZHTnhGRydZWDWJKmvGXajcWCIo9Mnrr_hjOS7wapbcdsKpzlIYx_ycZCdRH0QPEwCbSFVu64QiLx_C7oamdzl2otfAv_670nwdffiKLV9LayoNrVfe9tt6TAz37U4NGeh6T00RuEktkJR2uTi1uB5DbAb3cq49o5gt7eBOQ9S7V5n8_pJcUR0mJsSyz7iw7scSa9PhS45mlFOJa0uTV2vgInA59e99p45YHWYETU9fU74x0bTnnmYM4GdzNVOGe8rOXNagxRndB4F-2DGYp-O7ddDN8GEfW8k0as-1uwqzGqu8msafgoeNt1zmEKeU0dRzRgrLBV9hx4t1-Plf_8tGICLtkyxKgFjTScAXj5-4r-TpbUkGeVS75kMrV9bgHx4PUWMsL1F3lOiXm4YvDq7mU92NrwVUKT5SuAPBlcLH6KolnrbzsWlsmv5KUil9qVtWB7zS3uDo7CA-WSIdo07ZjrlCJh_KZ05B1Eo1FUcJllOMEru3kH9XLQuN9mWtoPWg9YMzlA3VMhefXc0MUspjZ2gn9dEWffI4LVeXGvH-FTeLqZ6UoOfK7OVs_2dfA-7wJc_md5p0jesvDN8nmoWvflWR4m7qwm5TbUB73d0dQj5oXrNPciX8B1zdTOSHMQvDVeY3eC7gXKIXM6fKVSb2Drez1wet9cfKGsIYY7oh7J7uV8ywyadpSdSW6Cwy51MESylCdCyDX4b8NbcezpWnebNtBQFVQCfxSj9yGS0v_kBfQCJlcou24KKkHkXbE053s0jE8GatD4_8Y3FsS1J=w411-h617-s-no?authuser=0))
+
+#### My Cv
+
+[check my cv](https://drive.google.com/file/d/13ooGG3uZ7Bf_2Ux4XLFta8_hVTdjwEd1/view?usp=drive_link)
