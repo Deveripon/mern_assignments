@@ -1,0 +1,1 @@
+(function($){'use strict';$(window).on('load',function(){setTimeout(function(){$('.custom-porto-svg-logo').addClass('active');},1000);});}).apply(this,[jQuery]);
