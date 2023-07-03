@@ -2,7 +2,9 @@ const user_post_box = document.getElementById("user_post_box");
 
 let post_list = "";
 posts.map((item, index) => {
-	post_list += `<div class="user-post">
+	post_list += 
+	
+`<div class="user-post">
 	<div class="user-post-header">
 		<div class="post-info">
 			<img src="${item.user.photo}" alt="" />
@@ -199,6 +201,8 @@ posts.map((item, index) => {
 		<div class="comments-area"></div>
 	</div>
 </div>`;
+	
+	
 });
 
 user_post_box.innerHTML = post_list;
