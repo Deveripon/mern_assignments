@@ -3,3 +3,14 @@
 	object-fit: cover;
 	object-position: top;
 }
+
+.client-logo-area {
+	height: 200px;
+	object-fit: cover;
+	object-position: top;
+	vertical-align: middle;
+}
+
+.client-logo {
+	height: auto;
+}
