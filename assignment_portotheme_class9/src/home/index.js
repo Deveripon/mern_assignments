@@ -163,3 +163,42 @@ features[1].map((feature, i) => {
 features_right_container.innerHTML = right_feature;
 
 //<!-- ========== Features End From Here ========== -->//
+
+//<!-- ==========  Accordion Start From Here ========== -->//
+const accordion = document.getElementById("accordion");
+let accordionlist = "";
+accordions.map((item, i) => {
+  accordionlist += `
+  
+  <div class="card card-default">
+                <div class="card-header">
+                  <h4 class="card-title m-0">
+                    <a class="accordion-toggle text-color-dark font-weight-bold"
+                      data-toggle="collapse"
+                      data-parent="#accordion"
+                      href="#${item.acc_id()}">
+                      <i class="icons ${item.icon} text-color-primary"></i>
+                      ${item.title}
+                    </a>
+                  </h4>
+                </div>
+              
+                <div id="${item.acc_id()}"
+                  class="collapse show">
+                  <div class="card-body text-2">
+                    <p>
+                     ${item.description}</p>
+                    </p>
+                    <p class="mb-0">
+                      Adipiscing elit phasellus blanit ma...
+                      <a href="#"
+                        class="d-block text-color-dark font-weight-semibold pt-4">read more
+                        <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
+                    </p>
+                  </div>
+                </div>
+              </div>`;
+});
+accordion.innerHTML = accordionlist;
+
+//<!-- ==========  Accordion End From Here ========== -->//

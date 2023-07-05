@@ -111,7 +111,7 @@ const testimonials = [
   },
 ];
 //<!-- ========== testimonials End From Here ========== -->//
-//<!-- ==========  Start From Here ========== -->//
+//<!-- ==========  Features Start From Here ========== -->//
 const features = [
   //left side features
   [
@@ -162,10 +162,59 @@ const features = [
     },
     {
       id: 8,
-      icon: "iicon-screen-desktop",
+      icon: "icon-screen-desktop",
       title: "Lightbox Perfomence",
       desc: "  Lorem ipsum dolor, sit amet consectetur a. Aliquam, m amet consecsit amet consectetur a.magni?",
     },
   ],
 ];
-//<!-- ==========  End From Here ========== -->//
+//<!-- ==========  Features End From Here ========== -->//
+
+//<!-- ==========  Accordion Start From Here ========== -->//
+const accordions = [
+  {
+    id: 1,
+    title: "Ultimate Design",
+    description:
+      "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor esse quibusdam iusto saepe fugit temporibus porro laudantium vero molestias voluptate.",
+    icon: "icon-diamond",
+    acc_id: function () {
+      let id = this.title.split(" ");
+      return id.join("-");
+    },
+  },
+  {
+    id: 2,
+    title: "Unlimited Demos",
+    description:
+      "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor esse quibusdam iusto saepe fugit temporibus porro laudantium vero molestias voluptate.",
+    icon: "icon-grid",
+    acc_id: function () {
+      let id = this.title.split(" ");
+      return id.join("-");
+    },
+  },
+  {
+    id: 3,
+    title: "Nice Portfolios",
+    description:
+      "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor esse quibusdam iusto saepe fugit temporibus porro laudantium vero molestias voluptate.",
+    icon: "icon-diamond",
+    acc_id: function () {
+      let id = this.title.split(" ");
+      return id.join("-");
+    },
+  },
+  {
+    id: 1,
+    title: "Contact Form",
+    description:
+      "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor esse quibusdam iusto saepe fugit temporibus porro laudantium vero molestias voluptate.",
+    icon: "icon-bubble",
+    acc_id: function () {
+      let id = this.title.split(" ");
+      return id.join("-");
+    },
+  },
+];
+//<!-- ==========  Accordion End From Here ========== -->//
