@@ -182,6 +182,7 @@ const accordions = [
       let id = this.title.split(" ");
       return id.join("-");
     },
+    target_link: "https://github.com/deveripon",
   },
   {
     id: 2,
@@ -193,6 +194,7 @@ const accordions = [
       let id = this.title.split(" ");
       return id.join("-");
     },
+    target_link: "https://github.com/deveripon",
   },
   {
     id: 3,
@@ -204,6 +206,7 @@ const accordions = [
       let id = this.title.split(" ");
       return id.join("-");
     },
+    target_link: "https://github.com/deveripon",
   },
   {
     id: 1,
@@ -215,6 +218,7 @@ const accordions = [
       let id = this.title.split(" ");
       return id.join("-");
     },
+    target_link: "https://github.com/deveripon",
   },
 ];
 //<!-- ==========  Accordion End From Here ========== -->//

@@ -184,14 +184,14 @@ accordions.map((item, i) => {
                 </div>
               
                 <div id="${item.acc_id()}"
-                  class="collapse show">
+                  class="collapse">
                   <div class="card-body text-2">
                     <p>
                      ${item.description}</p>
                     </p>
                     <p class="mb-0">
                       Adipiscing elit phasellus blanit ma...
-                      <a href="#"
+                      <a href="${item.target_link}" target="_blank"
                         class="d-block text-color-dark font-weight-semibold pt-4">read more
                         <i class="fas fa-angle-right position-relative top-1 ml-1"></i></a>
                     </p>
@@ -200,5 +200,6 @@ accordions.map((item, i) => {
               </div>`;
 });
 accordion.innerHTML = accordionlist;
+accordion.firstElementChild.lastElementChild.classList.add("show");
 
 //<!-- ==========  Accordion End From Here ========== -->//
