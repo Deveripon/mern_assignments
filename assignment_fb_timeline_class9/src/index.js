@@ -2,9 +2,7 @@ const user_post_box = document.getElementById("user_post_box");
 
 let post_list = "";
 posts.map((item, index) => {
-	post_list += 
-	
-`<div class="user-post">
+  post_list += `<div class="user-post">
 	<div class="user-post-header">
 		<div class="post-info">
 			<img src="${item.user.photo}" alt="" />
@@ -48,12 +46,16 @@ posts.map((item, index) => {
 			</p>
 		</div>
 	</div>
-	<div class="post-media">
-		<img
-			src="${item.p_media.photo}"
-			alt=""
-		/>
-	</div>
+${
+  item.p_media
+    ? `	<div class="post-media">
+<img
+	src="${item.p_media.photo}"
+	alt=""
+/>
+</div>`
+    : ""
+}
 	<div class="post-comments">
 		<div class="comments-header">
 			<div class="reaction">
@@ -201,8 +203,6 @@ posts.map((item, index) => {
 		<div class="comments-area"></div>
 	</div>
 </div>`;
-	
-	
 });
 
 user_post_box.innerHTML = post_list;
