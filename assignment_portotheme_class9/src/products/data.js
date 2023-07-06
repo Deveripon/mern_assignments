@@ -30,7 +30,7 @@ const product = [
     badge: "",
     photo:
       "https://rukminim1.flixcart.com/image/850/1000/kpu3frk0/sari/i/5/m/free-tumpa1234-biswas-sharee-house-unstitched-original-imag3zp4yxqzgwmv.jpeg?q=90",
-    discount: "",
+    discount: null,
   },
   {
     id: 4,
@@ -75,5 +75,27 @@ const product = [
     photo:
       "https://png.pngtree.com/png-vector/20210120/ourmid/pngtree-3d-cosmetic-mockup-transparent-background-2-png-image_2763680.jpg",
     discount: 45,
+  },
+  {
+    id: 8,
+    p_name: "Ladies Perfume",
+    category: "Beauty Products",
+    price: 4000,
+    sale_price: "",
+    badge: "new",
+    photo:
+      "https://amandacampeanu.com/wp-content/uploads/2019/09/Minimal-Product-Photography.jpg",
+    discount: null,
+  },
+  {
+    id: 9,
+    p_name: "Mens Gift Box Full Set",
+    category: "Clothings",
+    price: 3500,
+    sale_price: null,
+    badge: "new",
+    photo:
+      "https://i.etsystatic.com/13156606/r/il/85e125/2046842815/il_500x500.2046842815_48ok.jpg",
+    discount: null,
   },
 ];
