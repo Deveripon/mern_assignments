@@ -58,8 +58,8 @@ console.log(marraigeAgeChecker("Ripon", "male", 30).resultMsg);
  * 4.Curried Function
  * 5.Callback Function
  * 6.Closure Function
- * 7.Async Await Function
- * 8.Promise Function
+ * 7.Promise Function 
+ * 8.Async Await Function
  * 9.Constractor Function
  */
 
@@ -149,3 +149,92 @@ const myCurriedFunction2 = (task1) => (task2) => (task3) => {
 }
 //invocation of Curried Function
 myCurriedFunction2("Practice Previous Class Topic")("Make your Notes")("Implement to your Projects");
+
+
+/**
+ * Callback Function
+ * Defination: Callback function is always a normal function, It used in different context. When we write any asynchronous function there we use the callback function. we can pass the callback function as a parameter of asyncronus function and we can call this in asyncronus function body.callback function run after completeing the asynchronous task.
+ * When Asyncronus task completes successfully it calls the callback function to run. thats why it is called Callback function.
+ * when we wants to run any code after completeing any task,than we can pass the callback function
+ * Simply we can say that, when any function receives function as parameter that parameter is a callback function
+ */
+
+// Example: 1
+// syntax of callback function
+// suppose we have some line of code like this:
+console.log("hello world");
+console.log("hello grate people how are you");
+console.log("hello world3");
+//but we wnat to run  2nd line code run after completely run the 3rd line code. in this situation we will pass the callback function
+function myCallback(callback) {
+  console.log("hello world");
+  console.log("hello world3");
+  return callback();
+}
+let call = () => {
+  console.log("hello grate people how are you");
+}
+myCallback(call);
+
+// Example:2
+//setTimeout(callback, timeInMs);
+//setTimeout is a asyncronus function and it receives a callback as the first argument and returns it after waiting time.
+setTimeout(() => {
+  console.log("heloo this is calback");
+}, 3000);
+
+// in this example callback functions are called after completeing the task that is it have to wait 3 seconds,and after wait 3 second callback functions are called
+
+/**
+ * Closure Function
+ * Defination : Closure Function is look like callback function, but it has different context. closer function is a function which is bundled with lexical environment. it means when a Function return another function in its function body and it access its outer function's or parent function's variables.
+ */
+
+//example :
+// syntax:
+function myClosureFunction() {
+  let a = "ripon"
+  console.log("hello world");
+  return function () {
+    console.log(`hello world my name is ${a} `);
+  }
+}
+//invokation of function
+let myCloser = myClosureFunction();
+myCloser(); // Output : hello world my name is ripon
+
+
+/**
+ * Promise Constructor function
+ * Promise is a function that will be called on API calls. and it will give resolve or reject.
+ */
+// example:
+const promise = new Promise((resolve, reject) => {
+
+});
+
+
+
+
+
+
+
+
+
+
+/**
+ * Async Await Function
+ * Defination : async await function is a asyncronous function. it helps to save our app from time complexity issues.
+  When we make any function for any functionality which may take some time to complete the execution it will slow down our application performance. for this reason we can use async functions to get rid from this kind of time complexity issues. Its Syntax very easy. when we create function we just need to use async keyword before function name and simply use await keyword before return anything.
+ */
+// Example : 1
+async function myAsyncAwaitFunction() {
+  console.log(await "hello world form async");
+}
+myAsyncAwaitFunction(); // Output : hello world form async
+
+// Example : 2
+const myAsync = async () => {
+  console.log(await "this is async");
+}
+myAsync() // Output : this is async
