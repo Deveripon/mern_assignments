@@ -47,6 +47,18 @@ function Result(stuInfo, stuMarks) {
       return total === 5 ? total : total.toFixed(2)
     }
   }
+  //lets get the final grade
+  this.finalGrade = function () {
+    if (this.cgpaCal() >= 0 && this.cgpaCal() < 1) return "F";
+    if (this.cgpaCal() >= 1 && this.cgpaCal() < 2) return "D";
+    if (this.cgpaCal() >= 2 && this.cgpaCal() < 3) return "C";
+    if (this.cgpaCal() >= 3 && this.cgpaCal() < 3.5) return "B";
+    if (this.cgpaCal() >= 3.5 && this.cgpaCal() < 4) return "A-";
+    if (this.cgpaCal() >= 4 && this.cgpaCal() < 5) return "A";
+    if (this.cgpaCal() === 5) return "A+";
+
+  }
+
   //lets get the final result status
   this.finalResult = function () {
     if (this.cgpaCal() >= 1) return "Passed";
@@ -88,6 +100,6 @@ reli : ${result.reli}       = GPA : ${result.gpaCal("reli")}   = Grade : ${resul
 
 ____________________________________________
 
-CGPA : ${result.cgpaCal()}          ${result.finalResult()}
+CGPA : ${result.cgpaCal()}      Grade : ${result.finalGrade()}          ${result.finalResult()}
 
 `);
