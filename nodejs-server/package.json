@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "this is a basic nodejs server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "devripon",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}
